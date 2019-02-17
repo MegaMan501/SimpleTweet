@@ -11,17 +11,17 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginRight="5dp"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="TODO" />
+        android:contentDescription="TODO"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/tvScreenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
         tools:text="NPC1234" />
 
     <TextView
@@ -30,17 +30,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="67dp"
-        android:layout_marginTop="30dp"
-        tools:text="This is some sample text." />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
-        android:background="?android:attr/listDivider" />
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="16dp"
+        tools:text="This is a small change, but a big move for us. 140 was an arbitrary choice based on the 160 character SMS limit. Proud of how thoughtful the team has been in solving a real problem people have when trying to tweet. And at the same time maintaining our brevity, speed, and essence!" />
+
+    <TextView
+        android:id="@+id/tvTimeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBody"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="26dp"
+        tools:text="8m" />
+
 </RelativeLayout>
