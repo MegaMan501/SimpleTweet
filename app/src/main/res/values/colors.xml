@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="TwitterBlue">#1da1f2</color>
+    <color name="TwitterDarkBlue">#218ED6</color>
+    <color name="TwitterBlack">#14171a</color>
+    <color name="TwitterGray">#aab8c2</color>
+    <color name="TwitterLightGray">#e1e8ed</color>
+    <color name="White"> #f5f8fa</color>
+
+</resources>

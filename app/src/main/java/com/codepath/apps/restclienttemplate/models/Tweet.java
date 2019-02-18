@@ -4,11 +4,15 @@ import android.text.format.DateUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
+@Parcel
 public class Tweet {
 
     public String body;
@@ -43,4 +47,14 @@ public class Tweet {
 
         return relativeDate;
     }
+
+    public String getBody() {  return body;   }
+
+    public long getUid() {  return uid;    }
+
+    public String getCreateAt() {  return createAt;  }
+
+    public User getUser() {  return user;   }
+
+
 }
