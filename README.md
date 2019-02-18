@@ -2,7 +2,7 @@
 
 **SimpleTweet** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -16,8 +16,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] User can view more tweets as they scroll with infinite pagination
-- [ ] User can tap a tweet to display a "detailed" view of that tweet
+- [X] User can view more tweets as they scroll with infinite pagination
+- [X] User can tap a tweet to display a "detailed" view of that tweet
 - [ ] User can open the twitter app offline and see last loaded tweets
 - [ ] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
 - [ ] Replace all icon drawables and other static image assets with [vector drawables](http://guides.codepath.org/android/Drawables#vector-drawables) where appropriate.
@@ -36,13 +36,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='https://github.com/MegaMan501/SimpleTweet/blob/master/SimpleTweet.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Getting infinite pagination took a while to get setup, the codepath guides need to be updated for infinite pagination. Also creating the detailed view required lots of modification to the source code. However, the detailed view wil allow for more detailed app in the future. 
 
 ## Open-source libraries used
 
