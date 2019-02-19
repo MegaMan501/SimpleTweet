@@ -36,7 +36,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Part1]('https://github.com/MegaMan501/SimpleTweet/blob/master/SimpleTweet.gif')
+![Part1](https://github.com/MegaMan501/SimpleTweet/blob/master/SimpleTweet.gif)
 
 ## Notes
 
