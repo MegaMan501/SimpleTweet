@@ -25,6 +25,11 @@ public class TwitterDetail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        getSupportActionBar().setTitle("");
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_twitter_logo_whiteonimage);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
         ivProfileImage = findViewById(R.id.ivProfileImage);
         tvScreenName = findViewById(R.id.tvScreenName);
         tvBody = findViewById(R.id.tvBody);
@@ -37,7 +42,7 @@ public class TwitterDetail extends AppCompatActivity {
         tvScreenName.setText(tweet.getUser().getScreenName());
         tvBody.setText(tweet.getBody());
         tvTimeStamp.setText(tweet.getRelativeTimeAgo(tweet.getCreateAt()));
-        Glide.with(getBaseContext()).load(tweet.getUser().getProfileImageUrl()).into(ivProfileImage);
+        Glide.with(this).load(tweet.getUser().getProfileImageUrl()).into(ivProfileImage);
 
     }
 

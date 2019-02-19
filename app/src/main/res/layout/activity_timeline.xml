@@ -21,6 +21,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     </android.support.v4.widget.SwipeRefreshLayout>
-    
+
 
 </android.support.constraint.ConstraintLayout>

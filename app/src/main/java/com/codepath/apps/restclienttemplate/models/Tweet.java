@@ -20,6 +20,9 @@ public class Tweet {
     public String createAt;
     public User user;
 
+    // empty constructor need by the Parceler library
+    public Tweet () { }
+
     public static Tweet fromJson(JSONObject jsonObject) throws JSONException {
         Tweet tweet = new Tweet();
         tweet.body = jsonObject.getString("text");

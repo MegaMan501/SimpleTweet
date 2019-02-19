@@ -12,7 +12,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/TwitterBlue</item>
         <item name="colorPrimaryDark">@color/TwitterDarkBlue</item>
-        <item name="colorAccent">@color/TwitterLightGray</item>
+        <item name="colorAccent">@color/TwitterBlue</item>
         <item name="android:textColor">@color/TwitterBlack</item>
     </style>
 
